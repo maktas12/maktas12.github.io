@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+  body{
+ background-image: url(https://cutewallpaper.org/21/solid-black-wallpaper-1920x1080/Dark-Grey-Solid-Background-1920x1080-Black-Wallpaper-.jpg);
+
+ display: grid;
+grid-template-columns: 33.3vw 33.3vw 33.3vw;
+grid-template-rows: 10vh 10vh 80vh;
+border-style: solid;
+
+  }
+
+ nav {
+   grid-column: 1/4;
+   grid-row: 1/2;
+ background-color: lime;
+  }
+
+  a {
+    font-size: 50px;
+    margin: 70px;
+    background-color: lime;
+   }
+
+h1 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+    text-align: center;
+    background-color: #11c1ed;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #11c1ed;
+}
+
+p{
+  margin-right: 90px;
+  font-size: 20px;
+  color: #bfc9c2;
+}
+
+
+h3{
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #11c1ed;
+}
+
+h4{
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #11c1ed;
+  text-align: ;
+}
+h5{
+  font-size: 30px;
+  color: #11c1ed;
+}
+h6{
+  font-size: 30px;
+  color: #11c1ed;
+}
+#naam{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+#gegevens{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#motivatie{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+#sterke{
+grid-column: 2/3;
+grid-row: 3/4;
+text-align: left;
+}
+#zwakke{
+  grid-column: 3/4;
+  grid-row: 3/4;
+  text-align: left  ;
+}
