@@ -1,15 +1,25 @@
 nav {
 background-color: lime;
  }
- article{
-   background-color: blue;
+ #header{
+   background-color: #11c1ed;
  }
  a {
    font-size: 50px;
    background-color: lime;
    margin-bottom: 10px;
   }
+  p{
+    color: white;
+    font-size: 20px;
+  }
   h1{
     font-size: 40px;
     margin-bottom : 50px;
+  }
+  h2{
+    color: #11c1ed;
+  }
+  #punten{
+  background-image: url(https://cutewallpaper.org/21/solid-black-wallpaper-1920x1080/Dark-Grey-Solid-Background-1920x1080-Black-Wallpaper-.jpg);
   }
