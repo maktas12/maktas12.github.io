@@ -69,6 +69,7 @@ h5{
 h6{
   font-size: 30px;
   color: #11c1ed;
+  left: 70px;
 }
 #naam{
   grid-column: 1/2;
