@@ -14,7 +14,7 @@ background-color: lime;
     font-size: 20px;
   }
   #tekst{
-    background-color: white;
+    color: white;
     margin-left: 15px;
   }
   h1{
@@ -29,6 +29,10 @@ background-color: lime;
     text-align: center;
     background-color: blue;
     padding-bottom: 50px;
+  }
+  img{
+    width: 500px;
+    height: 500px;
   }
   body{
   background-image: url(https://cutewallpaper.org/21/solid-black-wallpaper-1920x1080/Dark-Grey-Solid-Background-1920x1080-Black-Wallpaper-.jpg);
