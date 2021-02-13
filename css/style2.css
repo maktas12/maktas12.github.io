@@ -41,6 +41,14 @@ background-color: lime;
     padding-bottom: 50px;
     font-family: Lucida Handwriting;
   }
+  h4{
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+    background-color: blue;
+    padding-bottom: 50px;
+    font-family: Lucida Handwriting;
+  }
   img{
     width: 500px;
     height: 500px;
