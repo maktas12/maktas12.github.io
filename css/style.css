@@ -18,13 +18,14 @@ border-style: solid;
  nav {
    grid-column: 1/4;
    grid-row: 1/2;
- background-color: lime;
+ background-color: blue;
   }
 
   a {
-    font-size: 45px;
+    font-size: 35px;
     margin: 50px;
-    background-color: lime;
+    background-color: blue;
+    color: white;
     text-decoration: underline;
     font-family: Lucida Handwriting;
    }
@@ -49,9 +50,8 @@ h2{
 
 p{
   margin-right: 90px;
-  font-size: 15px;
+  font-size: 20px;
   color: #bfc9c2;
-font-family: Lucida Handwriting;
 }
 
 

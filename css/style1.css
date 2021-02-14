@@ -1,19 +1,19 @@
 nav {
-background-color: lime;
+background-color: blue;
  }
  .header{
    background-color: #11c1ed;
  }
  a {
-   font-size: 45px;
-   background-color: lime;
-   margin-bottom: 10px;
-   font-family: Lucida Handwriting;
+   font-size: 35px;
+   background-color: blue;
+   color: white;
+   margin-bottom: 13px;
+    font-family: Lucida Handwriting;
   }
   p{
     color: white;
     font-size: 20px;
-    font-family: Lucida Handwriting;
   }
   h1{
     font-size: 40px;
