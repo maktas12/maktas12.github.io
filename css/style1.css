@@ -1,3 +1,6 @@
+body{
+  background-image: url(https://cutewallpaper.org/21/solid-black-wallpaper-1920x1080/Dark-Grey-Solid-Background-1920x1080-Black-Wallpaper-.jpg);
+}
 nav {
 background-color: blue;
  }
@@ -24,9 +27,7 @@ background-color: blue;
     color: #11c1ed;
     font-family: Lucida Handwriting;
   }
-  .punten{
-  background-image: url(https://cutewallpaper.org/21/solid-black-wallpaper-1920x1080/Dark-Grey-Solid-Background-1920x1080-Black-Wallpaper-.jpg);
-  }
+
   [class*="col-"] {
     width: 100%;
   }
