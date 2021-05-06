@@ -24,10 +24,13 @@ background-color: blue;
     font-family: Lucida Handwriting;
   }
   h2{
-    color: #11c1ed;
+    color: white;
     font-family: Lucida Handwriting;
     font-size: 30px;
     margin-bottom: 50px;
+    background-color: blue;
+    padding-bottom: 30px;
+    text-align: center;
   }
   img{
     width: 400px;
