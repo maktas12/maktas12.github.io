@@ -19,12 +19,13 @@ background-color: blue;
     color: white;
     margin-left: 15px;
   }
+  #tekst1{
+    color: white;
+  }
   .fotos{
     margin: 0px;
   }
-  .skills{
 
-  }
   h1{
     font-size: 40px;
     margin-bottom : 30px;
@@ -33,6 +34,7 @@ background-color: blue;
   h2{
     color: #11c1ed;
     font-family: Lucida Handwriting;
+    color: white;
   }
   h3{
     margin-top: 70px;
@@ -40,6 +42,7 @@ background-color: blue;
     background-color: blue;
     padding-bottom: 50px;
     font-family: Lucida Handwriting;
+    color: white;
   }
   h4{
     font-size: 50px;
@@ -48,6 +51,7 @@ background-color: blue;
     background-color: blue;
     padding-bottom: 20px;
     font-family: Lucida Handwriting;
+    color: white;
   }
   img{
     width: 500px;
