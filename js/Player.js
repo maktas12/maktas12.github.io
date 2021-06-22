@@ -1,10 +1,7 @@
 export default class Player {
+  // hier worden de players en symbolen opgeslagen //
   constructor(name, symbol) {
-      this.name = name;
-      this.symbol = symbol;
-      this.points = this.points;
-  }
-  addPoints() {
-    this.points += 1;
+    this.name = name;
+    this.symbol = symbol;
   }
 }

@@ -1,41 +1,49 @@
 nav {
 background-color: blue;
- }
- .header{
-   background-color: #11c1ed;
- }
- a {
-   font-size: 30px;
-   background-color: blue;
-   color: white;
-   margin-bottom: 13px;
-    font-family: Lucida Handwriting;
-  }
-  .container-fluid{
-    padding-top: 10px;
-  }
-  p{
-    color: white;
-    font-size: 20px;
-  }
-  h1{
-    font-size: 40px;
-    margin-bottom : 30px;
-    font-family: Lucida Handwriting;
-  }
-  h2{
-    color: white;
-    font-family: Lucida Handwriting;
-    font-size: 30px;
-    margin-bottom: 50px;
-    background-color: blue;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  img{
-    width: 400px;
-    height: 500px;
-  }
-  body{
-  background-image: url(https://cutewallpaper.org/21/solid-black-wallpaper-1920x1080/Dark-Grey-Solid-Background-1920x1080-Black-Wallpaper-.jpg);
-  }
+}
+
+.header {
+  background-color: #11c1ed;
+}
+
+a {
+  font-size: 30px;
+  background-color: blue;
+  color: white;
+  margin-bottom: 13px;
+  font-family: Lucida Handwriting;
+}
+
+.container-fluid {
+  padding-top: 10px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom : 30px;
+  font-family: Lucida Handwriting;
+}
+
+h2 {
+  color: white;
+  font-family: Lucida Handwriting;
+  font-size: 30px;
+  margin-bottom: 50px;
+  background-color: blue;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: 500px;
+}
+
+body {
+background-image: url(https://cutewallpaper.org/21/solid-black-wallpaper-1920x1080/Dark-Grey-Solid-Background-1920x1080-Black-Wallpaper-.jpg);
+}

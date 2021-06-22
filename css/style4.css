@@ -1,28 +1,30 @@
 
-.nav{
+.nav {
   background-color: blue;
    padding: 8px;
 }
+
 a {
   font-size: 28px;
   background-color: blue;
   color: white; 
   margin-right: 80px;
-   font-family: Lucida Handwriting;
- }
+  font-family: Lucida Handwriting;
+}
 
-p{
+p {
   font-size: 30px;
   color: white;
 
 }
 
-.header{
+.header {
   font-size: 40px;
   color: white;
   background-color: #11c1ed;  
  text-align: center;
 }
+
 html,
 body {
   width: 100%;
@@ -34,14 +36,15 @@ body {
   color: white;
 }
 
-.board{
+.board {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   width: 400px;
   height: 400px;
   margin-left: 70px;
 }
-.field{
+
+.field {
   text-align: center;        
   border: 2px solid white;
   font-size: 50px;
@@ -50,10 +53,10 @@ body {
   font-family: Brush Script MT;
   
 }
-.reset-btn{
+
+.reset-btn {
   padding: 30px;
   font-size: 20px;
   text-align: left;
   color: black;
-
 }
