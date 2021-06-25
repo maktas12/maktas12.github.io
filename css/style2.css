@@ -14,6 +14,13 @@ a {
   font-family: Lucida Handwriting;
 }
 
+.background{
+  background-image: url(https://i.pinimg.com/originals/9f/66/0f/9f660f6d0d09d80f6cc039d275567deb.png);
+}
+
+.button-switch{
+  font-size: 20px;
+}
 .container-fluid {
   padding-top: 10px;
 }
@@ -72,8 +79,8 @@ h4 {
 }
 
 img {
-  width: 500px;
-  height: 500px;
+  width: 610px;
+  height: 600px;
 }
 
 body {

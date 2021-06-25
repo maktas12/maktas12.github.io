@@ -17,6 +17,13 @@ a {
 .container-fluid {
   padding-top: 10px;
 }
+.button-switch{
+  font-size: 20px;
+}
+
+.background{
+  background-image: url(https://i.pinimg.com/originals/9f/66/0f/9f660f6d0d09d80f6cc039d275567deb.png);
+}
 
 p {
   color: white;
