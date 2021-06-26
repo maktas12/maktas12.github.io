@@ -7,7 +7,6 @@ export default class Game {
     this.currentPlayer = this.playerOne;
     // hier zet ik een klick function op de field //
     this.fieldNodes = document.querySelectorAll(".board > .field");
-    console.log(this.currentPlayer.symbol);
 
       for (const field of this.fieldNodes) {
         field.addEventListener("click", (e) => {
@@ -30,8 +29,8 @@ export default class Game {
     const fieldPlace = event.target;
     const fieldContent = fieldPlace.textContent;
     // dit zorgt ervoor dat als je op een field klicked waar al iets inzit dat het je een alert geeft //
-    if (fieldContent === "X" || fieldContent === "O"){
-      alert("stop");
+    if (fieldContent === "X" || fieldContent === "O") {
+      alert("deze field is in bezit! kies aub een andere.");
       return;
     }
 
@@ -56,7 +55,7 @@ export default class Game {
     else if (allFields[0].textContent == "O" && allFields[1].textContent == "O" && allFields[2].textContent == "O" ) {
       alert("O heeft gewonnen!  ");
       winner = true;
-      theBody.classList.toggle("bigBrain");
+      theBody.classList.toggle("smart");
     }
     else if (allFields[0].textContent == "X" && allFields[3].textContent == "X" && allFields[6].textContent == "X" ) {
       alert("X heeft gewonnen!");
@@ -66,7 +65,7 @@ export default class Game {
     else if (allFields[0].textContent == "O" && allFields[3].textContent == "O" && allFields[6].textContent == "O" ) {
       alert("O heeft gewonnen!");
       winner = true;
-      theBody.classList.toggle("bigBrain");
+      theBody.classList.toggle("smart");
     }
     else if (allFields[2].textContent == "X" && allFields[5].textContent == "X" && allFields[8].textContent == "X" ) {
       alert("X heeft gewonnen!");
@@ -76,7 +75,7 @@ export default class Game {
     else if (allFields[2].textContent == "O" && allFields[5].textContent == "O" && allFields[8].textContent == "O" ) {
       alert("O heeft gewonnen!");
       winner = true;
-      theBody.classList.toggle("bigBrain");
+      theBody.classList.toggle("smart");
     }
     else if (allFields[1].textContent == "X" && allFields[4].textContent == "X" && allFields[7].textContent == "X" ) {
       alert("X heeft gewonnen!");
@@ -86,7 +85,7 @@ export default class Game {
     else if (allFields[1].textContent == "O" && allFields[4].textContent == "O" && allFields[7].textContent == "O" ) {
       alert("O heeft gewonnen!");
       winner = true;
-      theBody.classList.toggle("bigBrain");
+      theBody.classList.toggle("smart");
     }
     else if (allFields[3].textContent == "X" && allFields[4].textContent == "X" && allFields[5].textContent == "X" ) {
       alert("X heeft gewonnen!");
@@ -96,7 +95,7 @@ export default class Game {
     else if (allFields[3].textContent == "O" && allFields[4].textContent == "O" && allFields[5].textContent == "O" ) {
       alert("O heeft gewonnen!");
       winner = true;
-      theBody.classList.toggle("bigBrain");
+      theBody.classList.toggle("smart");
     }
     else if (allFields[6].textContent == "X" && allFields[7].textContent == "X" && allFields[8].textContent == "X" ) {
       alert("X heeft gewonnen!");
@@ -106,7 +105,7 @@ export default class Game {
     else if (allFields[6].textContent == "O" && allFields[7].textContent == "O" && allFields[8].textContent == "O" ) {
       alert("O heeft gewonnen!");
       winner = true;
-      theBody.classList.toggle("bigBrain");
+      theBody.classList.toggle("smart");
     }
     else if (allFields[0].textContent == "X" && allFields[4].textContent == "X" && allFields[8].textContent == "X" ) {
       alert("X heeft gewonnen!");
@@ -116,7 +115,7 @@ export default class Game {
     else if (allFields[0].textContent == "O" && allFields[4].textContent == "O" && allFields[8].textContent == "O" ) {
       alert("O heeft gewonnen!");
       winner = true;
-      theBody.classList.toggle("bigBrain");
+      theBody.classList.toggle("smart");
     }
     else if (allFields[2].textContent == "X" && allFields[4].textContent == "X" && allFields[6].textContent == "X" ) {
       alert("X heeft gewonnen!");
@@ -126,7 +125,7 @@ export default class Game {
     else if (allFields[2].textContent == "O" && allFields[4].textContent == "O" && allFields[6].textContent == "O" ) {
       alert("O heeft gewonnen!");
       winner = true;
-      theBody.classList.toggle("bigBrain");
+      theBody.classList.toggle("smart");    
     }
       
     if (!winner) {

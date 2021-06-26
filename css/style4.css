@@ -17,15 +17,20 @@ p {
   color: white;
 
 }
-.bigBrain{
-  background-image: url(https://pbs.twimg.com/media/EAaxsObXYAAO84v.jpg);
+.bigBrain {
+  background-image: url(https://media1.tenor.com/images/8ac74d59bf920c9588c8f7f00229cb78/tenor.gif?itemid=14835823);
   height: 968px;
 }
-.button-switch{
+
+.smart {
+background-image: url(https://media1.tenor.com/images/90d6be2b88ac2076e352f9f21256b3e0/tenor.gif?itemid=8235158);
+height: 935px;
+}
+.button-switch {
   font-size: 20px;
   color: black;
 }
-.background{
+.background {
   background-image: url(https://i.pinimg.com/originals/9f/66/0f/9f660f6d0d09d80f6cc039d275567deb.png);
   height: 968px;
 }
