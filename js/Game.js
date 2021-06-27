@@ -20,7 +20,6 @@ export default class Game {
   // dit reload de pagina en reset de game //
   reset() {
     location.reload(); 
-      
   }
 
   onFieldClick(event) {
@@ -28,6 +27,9 @@ export default class Game {
     // hier roep ik de plaats op waarop word gekliked //
     const fieldPlace = event.target;
     const fieldContent = fieldPlace.textContent;
+    let winner = false;
+    const theBody = document.body;
+    
     // dit zorgt ervoor dat als je op een field klicked waar al iets inzit dat het je een alert geeft //
     if (fieldContent === "X" || fieldContent === "O") {
       alert("deze field is in bezit! kies aub een andere.");
@@ -42,9 +44,6 @@ export default class Game {
     } else {
       this.currentPlayer = this.playerOne;
     }
-
-    let winner = false;
-    const theBody = document.body;
 
     // dit checkt elke win combinaties en of er eentje gehaald is //
     if (allFields[0].textContent == "X" && allFields[1].textContent == "X" && allFields[2].textContent == "X" ) {
@@ -127,7 +126,7 @@ export default class Game {
       winner = true;
       theBody.classList.toggle("smart");    
     }
-      
+      // dit checkt of er geen winnaars zijn //
     if (!winner) {
       let filledFields = 0;
 

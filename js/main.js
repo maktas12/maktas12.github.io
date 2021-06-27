@@ -7,24 +7,24 @@ const buttonSwitch = document.querySelector(".button-switch");
 // berekent en schrijft hoeveel farenheit celcius is//  
 
 if (buttonSwitch) {
-  buttonSwitch.addEventListener("click", function(){
+  buttonSwitch.addEventListener("click", function() {
     const theBody = document.body;
     theBody.classList.toggle("background");
   })
 }
 
 if (fahrenheitButton) {
-  fahrenheitButton.addEventListener("click", temperatureConverter);
-  celciusButton.addEventListener("click", temperatureConverter2);
+  fahrenheitButton.addEventListener("click", fahrenheitConverter);
+  celciusButton.addEventListener("click", celciusConverter2);
 }
 
-function temperatureConverter() {
+function fahrenheitConverter() {
   const fahrenheitValue = fahrenheit.value;
   document.querySelector(".outputCelcius").innerHTML=(fahrenheitValue-32)/1.8;
 }
 
 // berekent en schrijft hoeveel celcius farenheit is//
-function temperatureConverter2() {
+function celciusConverter2() {
   const celciusValue = celcius.value;
   document.querySelector(".outputFarenheit").innerHTML=(celciusValue*1.8)+32;
 } 
